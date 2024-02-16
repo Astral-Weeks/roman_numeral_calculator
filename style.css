@@ -1,0 +1,110 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  padding: 20 20 20 20;
+}
+
+h1,
+p,
+button {
+  font-family: garamond, times new roman;
+}
+
+p {
+  text-align: center;
+}
+
+#button {
+  background-color: darkred;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+}
+
+.heading {
+  color: white;
+  cursor: hover;
+  font-size: 0.75em;
+}
+
+#navbar {
+  width: 100%;
+  max-width: 100%;
+  height: 50px;
+}
+
+.line {
+  border-bottom: 3px solid goldenrod;
+  width: 100%;
+  text-align: center;
+  margin-top: 30;
+  margin-bottom: 30;
+}
+
+h4 {
+  text-align: center;
+}
+
+#para1,
+#para2,
+#para3 {
+  font-size: 15px;
+  border: 1px solid goldenrod;
+  padding: 10 10 10 10;
+}
+
+footer {
+  color: white;
+  margin-bottom: 20;
+  margin-top: 5;
+  padding-bottom: 20;
+}
+
+#footerleft {
+  float: left;
+  padding-left: 0;
+}
+
+#footerright {
+  float: right;
+  padding-right: 0;
+}
+
+#selfreflink {
+  color: white;
+}
+
+#head1 {
+  float: left;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+}
+
+#head2 {
+  float: none;
+}
+
+#head3 {
+  float: right;
+  padding-right: 0;
+  margin-right: 0;
+}
+
+nav {
+  width: 100vmax;
+  padding-top: 20px;
+}
