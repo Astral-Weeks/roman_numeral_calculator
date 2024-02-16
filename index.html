@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>Roman Numeral Calculator Webpage</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+  <div class="container-fluid main_container">
+    <div class="row" style="background-color: goldenrod; ">
+      <div class="col-md-4 col-md-offset-4">
+        <div class="container-fluid">
+          <header>
+            <nav id="navbar">
+              <p>
+                <span>
+                  <a class="heading" id="head1" href="#inputbox">Convert A Number</a>
+                </span>
+                <span>
+                  <a class="heading" id="head2" href="#para1">Numbers Over 3999</a>
+                </span>
+                <span>
+                  <a class="heading" id="head3" href="#para3">The Number Zero</a>
+                </span>
+              </p>
+            </nav>
+          </header>
+        </div>
+
+        <div class="jumbotron">
+          <h1 class="display-4" style="text-align: center;">Roman Numeral Calculator</h1>
+          <div class="line">
+          </div>
+          <p class="lead" style="text-align: center;">To convert a number to its Roman numeral, please enter in the box
+            below</p>
+          <div class="line">
+          </div>
+          <p>Enter any number up to 3999</p>
+          <p><input type="number" class="form-control" id="inputbox" placeholder="Enter Numeral"></input></p>
+          <div>
+            <p id="romannumeral"><span id="number">Your number will appear here</span></p>
+          </div>
+          <div>
+            <button id="button" type="button" class="btn btn-block">Convert</button>
+          </div>
+          <div>
+            <p></p>
+          </div>
+          <div class="line">
+          </div>
+          <div>
+            <h4><b>How did Romans deal with numbers higher than 3999?</b></h4>
+            <p id="para1">
+              <span id="3999">3999</span> is the highest Roman numeral, due to the logic that Roman numerals follow.
+              <br>
+              <br>
+              Roman numerals write numbers like 4, 9 and 90 in a form that reads as 'one less than five', 'one less than
+              ten', or 'ten less than one-hundred'.
+              <br>
+              <br>
+              M, representing 1000, is the highest Roman numeral. Therefore, because there is no number for 5000, the
+              number 4000 cannot follow this 'a less than b' logic. However, if one wishes to, one can write the number
+              4000 as MMMM.
+              <br>
+              <br>
+              Consequently, the Romans employed a form of notation called the <i>vinculum</i> to write numbers higher
+              than 3999; or, they tended to break larger numbers down into smaller units that could be expressed
+              numerically.
+            </p>
+          </div>
+          <div class="line">
+          </div>
+          <div>
+            <h4><b>The Vinculum</b></h4>
+            <p id="para2">
+              The <i>vinculum</i> is a line written above a number, signifying a multiplication of 1000.
+              <br>
+              <br>
+              As such, a number such as XII with a horizontal line written above it equals 12,000.
+              <br>
+              <br>
+              Additionally, a box around a numeral signifies a multiplication of 100,000.
+              <br>
+              <br>
+              So a number such as XII with a box around it equalls 1,200,000
+            </p>
+          </div>
+          <div class="line">
+          </div>
+          <div>
+            <h4><b>How did Romans deal with zero?</b></h4>
+            <p id="para3">
+              In Roman numerals, there is no numeral for zero. Although this is one of the greatest weaknesses of Roman
+              numerals, and consequently one of the reasons why they have been replaced in favor of Arabic numerals, the
+              Romans could still deal with the concept of 0.
+              <br>
+              <br>
+              Traditionally, zero could be written by writing the Latin word <i>Nulla</i>, or left as a blank space.
+              <br>
+              <br>
+              As the system was mainly used for trading purposes and not for abstract pure mathematics, there was little
+              reason to devise a numeral specifically for zero.
+              <br>
+              <br>
+            </p>
+          </div>
+        </div>
+        <script src="script.js">
+        </script>
+
+        <footer>
+          <p><span id="footerleft">Coded by Astral-Weeks, 2023</span><span id="footerright"><a id="selfreflink"
+                href="https://github.com/Astral-Weeks/roman_numeral_calculator">Roman Numeral Calculator</a></span></p>
+        </footer>
+</body>
+
+</html>
