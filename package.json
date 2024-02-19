@@ -1,0 +1,11 @@
+{
+  "name": "Roman-Numeral-Calculator",
+  "version": "1.0.0",
+  "description": "A simple Roman Numeral Calculator",
+  "main": "index.html",
+  "scripts": {
+  }
+  "author": "",
+  "license": "",
+  "dependencies": "",
+}
