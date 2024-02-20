@@ -5,7 +5,7 @@
   "main": "index.html",
   "repository": "https://github.com/Astral-Weeks/roman_numeral_calculator/",
   "author": "AstralWeeks",
-  "license": "",
+  "license": "MIT",
   "scripts": {
     "start": "node app.js"
   },
