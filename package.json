@@ -1,11 +1,17 @@
 {
-  "name": "Roman-Numeral-Calculator",
+  "name": "roman-numeral-calculator",
   "version": "1.0.0",
-  "description": "A simple Roman Numeral Calculator",
+  "description": "A simple Roman numeral calculator",
   "main": "index.html",
-  "scripts": {
-  },
-  "author": "",
+  "repository": "https://github.com/Astral-Weeks/roman_numeral_calculator/",
+  "author": "AstralWeeks",
   "license": "",
-  "dependencies": "",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+  },
+  "engines": {
+    "node": ">=14"
+  }
 }
