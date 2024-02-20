@@ -96,6 +96,7 @@ footer {
 
 #head2 {
   float: none;
+  padding-top: 0;
 }
 
 #head3 {
