@@ -46,6 +46,16 @@ p {
   height: 50px;
 }
 
+.headingdiv {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+
+.headingdivref {
+   display: flex;
+}
+
 .line {
   border-bottom: 3px solid goldenrod;
   width: 100%;
